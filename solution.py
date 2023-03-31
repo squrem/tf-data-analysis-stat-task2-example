@@ -3,7 +3,7 @@ import numpy as np
 
 from scipy.stats import norm
 
-
+#task 2
 chat_id = 434559054 # Ваш chat ID, не меняйте название переменной
 
 def solution(p: float, x: np.array) -> tuple:
