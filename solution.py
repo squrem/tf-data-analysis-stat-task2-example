@@ -13,5 +13,5 @@ def solution(p: float, x: np.array) -> tuple:
     alpha = 1 - p
     a = 1/24 * (x**2).sum() /  (norm.ppf(1 - alpha/2) * np.sqrt(len(x)) + len(x))
     b = 1/24 * (x**2).sum() /  (norm.ppf(alpha/2) * np.sqrt(len(x)) + len(x))
-    return np.sqrt(a) \
+    return np.sqrt(a), \
            np.sqrt(b)
